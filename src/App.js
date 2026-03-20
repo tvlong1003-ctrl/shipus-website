@@ -8,21 +8,20 @@ import Footer from './components/Footer';
 import SocialContact from './components/SocialContact';
 
 function App() {
-  return (
-    <div className="min-h-screen bg-surface font-sans text-gray-800 flex flex-col">
-      <Header />
-      <main className="flex-grow">
-        <HeroSection />
-        <ShippingCalculator />
-        <ProcessSection />
-        <PricingTable />
+    return (
+          <div className="min-h-screen bg-surface font-sans text-gray-800 flex flex-col overflow-x-hidden">
+            <Header />
+            <main className="flex-grow">
+              <HeroSection />
+              <ShippingCalculator />
+              <ProcessSection />
+              <PricingTable />
       </main>
-      <Footer />
-      
-      {/* ĐẶT Ở ĐÂY ĐỂ NÓ NỔI LÊN TRÊN CÙNG */}
-      <SocialContact />
-    </div>
-  );
+        <Footer />
+
+            <SocialContact />
+      </div>
+    );
 }
 
 export default App;
