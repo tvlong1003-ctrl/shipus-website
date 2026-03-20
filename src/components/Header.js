@@ -17,16 +17,16 @@ function Header() {
 
         <nav className="hidden md:flex space-x-8 items-center font-sans">
                         <a href="/" className="text-sm font-semibold text-primary-dark hover:text-primary-accent transition-colors tracking-wide uppercase">
-                          TRANG CHU
+                          TRANG CHỦ
               </a>
             <a href="#pricing" className="text-sm font-semibold text-primary-dark hover:text-primary-accent transition-colors tracking-wide uppercase">
-                          BANG GIA
+                          BẢNG GIÁ
               </a>
             <a href="#guide" className="text-sm font-semibold text-primary-dark hover:text-primary-accent transition-colors tracking-wide uppercase">
-                          HUONG DAN
+                          HƯỚNG DẪN
               </a>
             <a href="#calculator" className="text-sm font-semibold text-primary-dark hover:text-primary-accent transition-colors tracking-wide uppercase">
-                          TRA CUU
+                          TRA CỨU
               </a>
               </nav>
 
