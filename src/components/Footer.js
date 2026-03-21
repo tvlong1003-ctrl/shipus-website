@@ -2,6 +2,7 @@ import React from 'react';
 import { MapPin, Phone, Mail, Award, CheckCircle } from 'lucide-react';
 
 function Footer() {
+      
       return (
               <footer className="bg-primary-dark text-white py-24 px-6 md:px-0 border-t border-white/5 font-sans">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 text-center md:text-left">
